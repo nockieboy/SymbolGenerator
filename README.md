@@ -7,4 +7,4 @@ It is geared around 8-bit systems where each row of the character/symbol is repr
 editor in the window where you can enable/disable pixels as desired, the program updates the values for each row and even provides
 a comma-separated accumulated output for copy-pasting into your application of choice.
 
-This is open source software, not particularly spectactularly programmed, but it was written to fulfill a simple purpose, and that it does. :)
+This is a Visual Studio 2017 project with compiled executable for Windows systems and is open source software, not particularly spectactularly programmed, but it was written to fulfill a simple purpose, and that it does. :)
