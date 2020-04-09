@@ -107,5 +107,17 @@ namespace SymbolGenerator
             hexOutput = radioButton1.Checked;
             UpdateLabels();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            foreach (Control c in this.Controls)
+            {
+                if (c.GetType() == typeof(CheckBox))
+                {
+                    CheckBox checkbox = (CheckBox)c;
+                    checkbox.Checked = false;
+                }
+            }
+        }
     }
 }
